@@ -1,0 +1,107 @@
+body {
+  /* Requirement-2.1 */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* Requirement-2.4 */
+  background-color: peachpuff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Requirement-2.A */
+h1 {
+  font-style: italic;
+}
+/* Requirement-2.B */
+h1 span {
+  text-shadow: rgb(223, 168, 145) 3px 0 10px;
+}
+
+.nav-element {
+  /* Requirement-2.9 */
+  font-size: 20px;
+  /* Requirement-2.3 */
+  color: sienna;
+  padding: 0px 20px;
+  /* Requirement-2.2 */
+  text-align: left;
+}
+.nav-element:hover {
+  color: rgb(188, 120, 89);
+}
+/* Requirement-2.C */
+.nav-bar {
+  text-align: right;
+  top: 0;
+  /* Requirement-2.15 */
+  position: sticky;
+  background-color: lightgray;
+  padding: 20px;
+  /* Requirement-2.17 */
+  z-index: auto;
+}
+
+/* Requirement-2.D */
+#welcome {
+  font-size: 50px;
+  color: black;
+  padding-left: 100px;
+  /* Requirement-2.16 */
+  visibility: visible;
+}
+
+.about-me {
+  max-width: 400px;
+  padding-left: 20px;
+  float: left;
+  clear: inline-start;
+  /* Requirement-2.13 */
+  overflow: auto;
+}
+
+.emoji {
+  font-size: 30px;
+}
+
+.summary {
+  max-width: 500px;
+  /* Requirement-2.11 */
+  float: left;
+}
+
+.kdrama {
+  font-style: italic;
+  font-weight: bold;
+  color: sienna;
+  font-size: 15px;
+}
+
+.abyss-image {
+  /* Requirement-2.10 */
+  width: 50%;
+  /* Requirement-2.7 */
+  height: 50%;
+  /* Requirement-2.6 */
+  padding: 20px;
+}
+
+.recipes {
+  /* Requirement-2.5 */
+  border-style: groove;
+  padding: 5px;
+  /* Requirement-2.8 */
+  list-style-type: square;
+  /* Requirement-2.12 */
+  display: block;
+}
+
+.details {
+  font-size: 15px;
+}
+
+.contact {
+  clear: left;
+}
+.space {
+  margin-bottom: 2000px;
+}
