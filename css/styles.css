@@ -78,6 +78,13 @@ h1 span {
   font-size: 15px;
 }
 
+.kdrama p {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  color: black;
+}
+
 .abyss-image {
   /* Requirement-2.10 */
   width: 50%;
