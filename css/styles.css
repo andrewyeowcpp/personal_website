@@ -101,7 +101,12 @@ h1 span {
   /* Requirement-2.8 */
   list-style-type: square;
   /* Requirement-2.12 */
-  display: block;
+  display: flexbox;
+  padding: 15px;
+}
+
+td {
+  padding: 10px;
 }
 
 .details {
