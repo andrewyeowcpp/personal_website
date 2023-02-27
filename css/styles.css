@@ -26,6 +26,8 @@ h1 span {
   /* Requirement-2.2 */
   text-align: left;
 }
+
+/* Requirement-2.E */
 .nav-element:hover {
   color: rgb(188, 120, 89);
 }
